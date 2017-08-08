@@ -359,31 +359,31 @@ $(document).ready(function() {
 		var thisKeyID = 'key-' + e.keyCode;
 		var thisKey = document.getElementById(thisKeyID);
 		switch (e.keyCode) {
-			case 82:
+			case 85:
 				ride();
 				break;
-			case 85:
+			case 82:
 				crash();
 				break;
-			case 74:
+			case 68:
 				hiHat();
 				break;
-			case 78:
+			case 67:
 				toggleHiHat();
 				break;
-			case 72:
+			case 70:
 				snare();
 				break;
 			case 66:
 				kick();
 				break;
-			case 70:
+			case 72:
 				floorTom();
 				break;
-			case 84:
+			case 89:
 				lowTom();
 				break;
-			case 89:
+			case 84:
 				hiTom();
 				break;
 		}
