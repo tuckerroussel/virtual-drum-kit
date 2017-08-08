@@ -1,0 +1,25 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Drum Kit | Tucker Roussel</title>
+    <meta name="description" content="A fully interactive virtual drum kit built with HTML5, CSS3, and JavaScript. Inspiration from Josh Ellis.">
+    <meta property="og:url"                content="https://tuckerroussel.com/drums" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Virtual Drum Kit" />
+    <meta property="og:description"        content="A fully interactive virtual drum kit built with HTML5, CSS3, and JavaScript. Inspiration from Josh Ellis." />
+    <meta property="og:image"              content="https://tuckerroussel.com/drums/assets/img/screenshot.png" />
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body>
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>
